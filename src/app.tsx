@@ -1,8 +1,12 @@
+import Navbar from "./components/shared/navbar";
+import Home from "./pages/home";
+
 const App = () => {
   return (
-    <div>
-      <h1>Workout</h1>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   );
 };
 
